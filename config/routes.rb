@@ -1,6 +1,8 @@
 RailsinstallerDemo::Application.routes.draw do
   get "welcome/index"
 
+  get "Application/hello"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

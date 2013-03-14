@@ -1,0 +1,10 @@
+x = <%= @x %><br/>
+y = <%= @y %><br/>
+message = <%= @message %><br/>
+<hr/>
+
+<% if @x == 10 %>
+    x is 10
+<% else %>
+    x is not 10 <br> but x = <%= @x %>
+<% end %>
